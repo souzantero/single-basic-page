@@ -1,0 +1,53 @@
+body {
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+.header {
+    position: relative;
+    display: block;
+    height: 100px;
+    background-color: black;
+}
+
+.header-title {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    padding: 20px 10px 20px 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+.header-nav {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    padding: 20px 20px 20px 10px;
+    text-align: right;
+}
+
+.header-nav-list {
+    display: inline;
+}
+
+.header-nav-list-item {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+.header-nav-list-item a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none;
+}
+
+.header-nav-list-item a:hover {
+    text-decoration: underline;
+}

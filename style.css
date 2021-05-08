@@ -117,3 +117,33 @@ footer {
 .copyright {
     font-size: large;
 }
+
+@media screen and (max-width: 480px) {
+
+    .header {
+        position: static;
+        height: auto;
+    }
+
+    .header-title {
+        display: block;
+        position: static;
+        width: auto;
+        padding: 10px;
+        margin: 20px 0 20px 0;
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .header-nav {
+        display: block;
+        position: static;
+        width: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .banner {
+        font-size: 50px;
+    }
+}

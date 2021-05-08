@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', 'sans-serif';
+    background-color: black;
 }
 
 .header {
@@ -50,4 +51,69 @@ body {
 
 .header-nav-list-item a:hover {
     text-decoration: underline;
+}
+
+.banner {
+    height: 400px;
+    background-color: white;
+    font-size: 100px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    color: white;
+}
+
+main section {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #2E2E2E;
+    padding: 40px;
+}
+
+main section .section-title {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main section p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: medium;
+}
+
+.service-list-item {
+    margin-bottom: 40px;
+}
+
+.service-list-item > * {
+    margin-bottom: 20px;
+}
+
+.service-list-item h3 {
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.service-list-item h3::before {
+    content: '. ';
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 20px;
+    background-color: white;
+}
+
+.copyright {
+    font-size: large;
 }
